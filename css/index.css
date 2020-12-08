@@ -45,7 +45,8 @@ display: block;
 .header_logo {
 font-family:'Raleway', sans-serif;
 font-style: normal;
-font-weight: 400;
+/*! b0ld=700  !*/
+font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
@@ -55,14 +56,15 @@ color: var(--black-color);
 .footer_logo{
 font-family:'Raleway', sans-serif;
 font-style: normal;
-font-weight:  400;
+/*! b0ld=700  !*/
+font-weight:  700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
 color:var(--white-color);
 
 display: inline-block;
-padding-top: 60px;
+ /*******! PADDING FOR SECTION !********/
 margin-bottom: 20px;
 } 
 
@@ -177,7 +179,8 @@ justify-content: center;
 /* outline: 1px solid teal; */
 }
 
-.hero .container{
+.hero{
+    /*******! PADDING FOR SECTION !********/
 padding-top: 200px;
 padding-bottom: 200px;
 }
@@ -223,9 +226,13 @@ border-radius: 4px;
 /* outline: 1px solid green; */
 } 
 
-/* .our_advantages {
-outline: 1px solid rebeccapurple;
-} */
+
+.our_advantages {
+/* outline: 1px solid green; */
+/*******! PADDING FOR SECTION !********/
+padding-top: 94px;
+padding-bottom: 94px;
+}
 
 
 .advantages_list {
@@ -251,7 +258,8 @@ line-height: 1.143;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--black-color);
-padding-top: 94px;
+/*******! PADDING FOR SECTION !********/
+/* padding-top: 94px; */
 max-width: 270px;
 min-height: 16px;
 }
@@ -265,18 +273,22 @@ line-height: 1.714;
 letter-spacing: 0.03em;
 color: var(--gray-color);
 margin-top: 10px;
-padding-bottom: 94px;
+/*******! PADDING FOR SECTION !********/
+/* padding-bottom: 94px; */
 max-width: 270px;
 min-height: 75px;
 }
 
-/* .services {
-outline: 1px solid green;
-} */
+.services {
+/* outline: 1px solid green; */
+padding-top: 94px;
+padding-bottom: 94px;
+}
 
 .services_list{
 display: flex;
-padding-bottom: 94px;
+/*******! PADDING FOR SECTION !********/
+
 }
 
 
@@ -301,16 +313,21 @@ margin-bottom: 50px;
 min-height: 648px;
 background-color: var(--another-fon-color);
 /* outline: 1px solid green; */
+/*******! PADDING FOR SECTION !********/
+padding-bottom: 94px;
+padding-top: 94px;
 }
 
-.main_title {
+/*******! PADDING FOR SECTION !********/
+/* .main_title {
 padding-top: 94px;
 margin-bottom: 50px;
-}
+} */
 
 .our_team_list{
 display: flex;
-padding-bottom: 94px;
+/*******! PADDING FOR SECTION !********/
+
 }
 
 .our_team_list_item {
@@ -358,12 +375,16 @@ color: var(--gray-color);
 
 .footer {
 background-color: var(--fon-color) ;
-/* outline: 3px solid rebeccapurple; */
+/* outline: 3px solid red; */
+/*******! PADDING FOR SECTION !********/
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .address_footer_list {
 display: inline-block;
-padding-bottom: 60px;
+/*******! PADDING FOR SECTION !********/
+
 }
 
 .address_footer_item:not(:last-child){

@@ -43,7 +43,8 @@ display: block;
 .header_logo {
 font-family:'Raleway', sans-serif;
 font-style: normal;
-font-weight: 400;
+/*! b0ld=700  !*/
+font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
@@ -53,14 +54,15 @@ color: var(--black-color);
 .footer_logo{
 font-family:'Raleway', sans-serif;
 font-style: normal;
-font-weight:  400;
+/*! b0ld=700  !*/
+font-weight:  700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
 color:var(--white-color);
     
 display: inline-block;
-padding-top: 60px;
+ /*******! PADDING FOR SECTION !********/
 margin-bottom: 20px;
 } 
   
@@ -182,11 +184,11 @@ color: var(--gray-color);
 
 
 /*! MAIN */
-
-.section-btn .container{
+ /*******! PADDING FOR SECTION !********/
+.section-btn{
 padding-top: 95px;
 padding-bottom: 50px;
-/*! outline: 2px solid darkgreen; */
+/* outline: 2px solid darkgreen; */
 }
   
 
@@ -232,15 +234,18 @@ rgba(0, 0, 0, 0.12);
 }
 
 
-/* 
-.web-site_section .container{
-outline: 2px solid darkgreen;
-} */
+
+.web-site_section{
+/* outline: 2px solid darkgreen; */
+ /*******! PADDING FOR SECTION !********/
+ padding-bottom: 94px;
+}
 
 .web-sites_list {
 display: flex;
 flex-wrap: wrap;
-padding-bottom: 94px;
+ /*******! PADDING FOR SECTION !********/
+
 justify-content: space-between;
 }
 
@@ -290,7 +295,11 @@ margin-right: 0px;
 /*! FOOTER */
 
 .footer {
-background-color: var(--fon-color) ;
+  background-color: var(--fon-color) ;
+  /* outline: 3px solid red; */
+  /*******! PADDING FOR SECTION !********/
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .container{
@@ -304,8 +313,8 @@ margin-bottom: 9px;
   
 
 .address_footer_list{
-display: inline-block;
-padding-bottom: 60px;
+  display: inline-block;
+  /*******! PADDING FOR SECTION !********/
 }
 
 .address_footer_item_links_kiev{
